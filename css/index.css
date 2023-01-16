@@ -1,0 +1,312 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  width: 90%;
+  max-width: 1024px;
+  margin: 0 120px 0 120px;
+}
+.clear {
+  clear: both;
+}
+body {
+  color: black;
+}
+/*header*/
+.header ul {
+  display: block;
+}
+.header ul li {
+  display: inline-block;
+  padding-left: 20px;
+}
+.header a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+.header a:hover {
+  color: red;
+}
+/*carousel*/
+.carousel {
+  background-image: url(../images/2.jpg);
+  height: 150vh;
+  background-size: cover;
+  background-position: center;
+  margin-top: 20px;
+  cursor: pointer;
+}
+/*content*/
+.content {
+  padding: 60px 120px 40px 120px;
+}
+.content-information {
+  float: left;
+  width: 50%;
+  padding-right: 50px;
+}
+.content-information p {
+  color: gray;
+  font-size: large;
+}
+.content-image {
+  float: left;
+  width: 50%;
+  background-image: url(../images/g1.jpg);
+  height: 60vh;
+  background-size: cover;
+  background-position: right;
+}
+.content button {
+  cursor: pointer;
+  background-color: rgb(217, 171, 18);
+  color: black;
+  border-radius: 5px;
+  border-style: none;
+  font-size: large;
+  font-weight: bold;
+  padding: 15px 30px 15px 30px;
+}
+.content button:hover {
+  background-color: yellow;
+}
+/*navigation number*/
+.navnum {
+  margin-top: 60px;
+  padding-left: 120px;
+  padding-right: 120px;
+  background: rgb(245, 241, 241);
+  height: 200px;
+  border: 2px hidden;
+}
+.row {
+  display: block;
+}
+.navnum-slot {
+  float: left;
+  width: 25%;
+  text-align: center;
+  word-spacing: 8px;
+  padding-top: 70px;
+}
+.number-left {
+  display: inline-block;
+  font-size: x-large;
+  font-weight: 800;
+  vertical-align: center;
+}
+.text-right {
+  display: inline-block;
+  width: 50%;
+  font-size: 20px;
+  text-align: left;
+  align-items: center;
+  vertical-align: center;
+  text-transform: uppercase;
+}
+/*service*/
+.service {
+  margin-top: 100px;
+  margin-left: 100px;
+}
+.service-card {
+  float: left;
+  width: 21.85%;
+  background-color: rgb(5, 5, 121);
+  position: relative;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  height: 150px;
+  text-align: center;
+  padding-top: 90px;
+  align-items: center;
+  cursor: pointer;
+}
+.service-card p {
+  color: white;
+  text-align: center;
+}
+.service-logo {
+  width: 100px;
+  height: 40px;
+  line-height: 40px;
+  position: absolute;
+  top: 30px;
+  right: 105px;
+  color: white;
+  z-index: 10;
+  cursor: cell;
+}
+/*news*/
+.news {
+  background-color: rgb(245, 241, 241);
+  border: 5px hidden;
+  height: 880px;
+  margin-top: 90px;
+  padding: 0 120px 0 120px;
+}
+.news button {
+  float: right;
+  cursor: pointer;
+  background-color: rgb(217, 171, 18);
+  color: black;
+  border-radius: 5px;
+  border-style: none;
+  font-size: large;
+  font-weight: bold;
+  padding: 15px 30px 15px 30px;
+  margin-top: 25px;
+}
+.news button:hover {
+  background-color: yellow;
+}
+.post,
+.event {
+  float: left;
+  width: 50%;
+  padding-top: 100px;
+}
+/* news-post */
+.postnews {
+  border: 2px hidden;
+  background-color: white;
+  color: black;
+  height: 523px;
+  margin-top: 40px;
+  padding-left: 20px;
+  padding-right: 25px;
+}
+.post-news {
+  padding: 25px 0 25px 0;
+  border: 1px solid gray;
+  border-top: hidden;
+  border-left: hidden;
+  border-right: hidden;
+}
+.post-news p {
+  font-size: 18px;
+  padding-right: 25px;
+}
+.post-news span {
+  color: gray;
+}
+.post-news-last {
+  padding: 25px 0 25px 0;
+  border: 1px hidden;
+}
+.post-news-last p {
+  font-size: 18px;
+  padding-right: 25px;
+}
+.post-news-last span {
+  color: gray;
+}
+.post-img {
+  float: left;
+  width: 30%;
+}
+.post-img img {
+  height: 120px;
+  width: 150px;
+  border-radius: 5px;
+}
+/* news-event */
+.event {
+  padding-left: 40px;
+}
+.eventnews {
+  margin-top: 40px;
+  background-color: white;
+  height: 220px;
+}
+.date {
+  float: left;
+  width: 18%;
+  margin: 25px 20px 0 20px;
+  text-align: center;
+  border-radius: 8px;
+  border: 0.3px solid;
+  background-color: rgb(217, 171, 18);
+}
+.date-1 {
+  padding: 20px 0 11px 0;
+}
+.date-1 span {
+  font-size: 18px;
+  font-weight: 530;
+}
+.date p {
+  background-color: rgb(5, 5, 121);
+  padding: 11px 0 11px 0;
+  color: white;
+  font-size: 17px;
+  font-weight: 530;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+}
+.infor {
+  float: right;
+  width: 75%;
+  padding: 25px 30px 25px 0;
+}
+.infor p {
+  font-size: 18px;
+}
+.hour {
+  color: rgb(5, 5, 121);
+  font-size: 20px;
+  font-weight: 545;
+}
+.hour span {
+  border-right: 2px solid gray;
+  padding-right: 20px;
+}
+.hour b {
+  padding-left: 20px;
+  font-size: 20px;
+  font-weight: 545;
+}
+/*footer*/
+footer {
+  background: rgb(5, 5, 121);
+  height: 500px;
+  color: white;
+  padding: 100px 0 100px 0;
+}
+.footer-container {
+  margin-left: 120px;
+}
+.footer-content {
+  float: left;
+  width: 30%;
+  justify-content: center;
+}
+.footer-content b {
+  font-size: 18px;
+}
+.footer-icon i {
+  color: yellow;
+}
+.footer-content p a {
+  text-decoration: none;
+  color: white;
+}
+.footer-content p a:hover {
+  color: red;
+}
+.b {
+  font-size: 18px;
+  padding-left: 10px;
+  color: white;
+}
+.footer-container1 {
+  margin-left: 120px;
+  margin-right: 120px;
+}
+.footer-container1 span {
+  color: gray;
+}
